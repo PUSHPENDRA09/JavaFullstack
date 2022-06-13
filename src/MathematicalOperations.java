@@ -1,5 +1,7 @@
 public class MathematicalOperations {
-    public static void main(String[] args) {
+    public
+
+    void main(String[] args) {
         int x = 52;
         int y = 55;
         int result;

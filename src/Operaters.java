@@ -1,5 +1,5 @@
 public class Operaters {
-    public static void main(String args[]) {
+    public static void  main(String args[]) {
         int a = 30;
         boolean flag = false;
         System.out.println(a++); //30
@@ -25,7 +25,7 @@ public class Operaters {
 
         //shift opretors
         System.out.println(x << 2);  // 10*2^2
-        System.out.println(x << 2);  // 10/2^2
+        System.out.println(x >> 2);  // 10/2^2
 
         //logical&bitwise operator
         System.out.println(x < y && y > z);
@@ -34,7 +34,7 @@ public class Operaters {
         System.out.println(x < y | y > z);
 
         //ternery operator
-        System.out.println(x > y ? "x is max" : "y is max");
+        System.out.println(x > y ? "x is max" : "y is max");  //use to reeplace if  else statement..
 
 
 
@@ -49,3 +49,4 @@ public class Operaters {
         }
     }
 }
+
