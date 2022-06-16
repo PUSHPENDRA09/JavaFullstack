@@ -15,6 +15,12 @@ public class Forloops {
             for (int j = 3; j > 0; j--) {
                 System.out.println(i + " " + j);
             }
+
+            //Enhanced for loop
+            int a[] ={5,10,15,20};
+            for (int no:a){
+                System.out.println(no);
+            }
         }
     }
 }
