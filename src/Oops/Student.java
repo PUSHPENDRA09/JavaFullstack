@@ -10,21 +10,21 @@ public class Student {
     float age;
 
 
-    void inserData(int r,String nm,String add,float a){
+    void inserData(int r, String nm, String add, float a) {
 
-        rollno =r;
+        rollno = r;
         name = nm;
-        address =add;
-        age =a ;
+        address = add;
+        age = a;
 
     }
-    void display()
-    {
+
+    void display() {
         System.out.println("student details");
-        System.out.println("rollno " +rollno);
-        System.out.println("student name " +name);
-        System.out.println("student addr " +address);
-        System.out.println("student age " +age);
+        System.out.println("rollno " + rollno);
+        System.out.println("student name " + name);
+        System.out.println("student addr " + address);
+        System.out.println("student age " + age);
     }
 }
 
@@ -37,21 +37,21 @@ class Studentimpl {
         s1.age = 5.5f;
 
 
-        Scanner sc= new Scanner(System.in);
-        System.out.println("enter rollno");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter rollno"); //person name
         int rollno = sc.nextInt();
-        System.out.println("enter name");
-        String nm =sc.next();
-        System.out.println("enter address");
-        String addr= sc.next();
+        System.out.println("enter name"); //person address
+        String nm = sc.next();
+        System.out.println("enter address"); // person age
+        String addr = sc.next();
         System.out.println("enter age");
         Float age = sc.nextFloat();
 
-        s1.inserData(rollno,nm,addr,age);
+        s1.inserData(rollno, nm, addr, age);
         s1.display();
 
-        Student s2= new Student();
-        s2.inserData(3,"ram","ny",50);
+        Student s2 = new Student();
+        s2.inserData(3, "ram", "ny", 50);
         s2.display();
     }
 }
