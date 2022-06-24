@@ -16,6 +16,7 @@ public class FibboSeries {
         System.out.println(+next);
         no2=next;
         no1=no2;
+        no1=no2;
         limit--;
 
     }
