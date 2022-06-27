@@ -14,9 +14,10 @@ public class FibboSeries {
 
         int next = no1+no2;
         System.out.println(+next);
+        no1=no2;
         no2=next;
-        no1=no2;
-        no1=no2;
+
+
         limit--;
 
     }
