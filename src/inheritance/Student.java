@@ -22,6 +22,8 @@ class StudentImpl{
     ChemistryMarks chemistryMarks = new ChemistryMarks();
     PhysicsMarks physicsMarks = new PhysicsMarks();
 
+
+
         System.out.println("student detail");
         System.out.println("Roll no" +mathmarks.rno);
         System.out.println("name" +mathmarks.name);
