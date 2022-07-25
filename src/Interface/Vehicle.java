@@ -5,6 +5,8 @@ public interface Vehicle{
 }
 interface Engine{
 
+
+
 }
 class Car implements Vehicle {
     boolean isVehicle() {
