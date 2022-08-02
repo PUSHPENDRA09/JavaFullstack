@@ -13,6 +13,7 @@ public class NestedTry {
             System.out.println(msg.toLowerCase());
             System.out.println("rest of code 1");
         }catch (NullPointerException e){
+
             System.out.println(e.getMessage());
         }
         System.out.println("rest of code 2");
