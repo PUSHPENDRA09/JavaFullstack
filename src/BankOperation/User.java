@@ -150,17 +150,7 @@ class BankOperation{
                     System.out.println("Exit");
             }
         }while (ch<4);
-        try{
-            transaction.depositAmount(sc.nextDouble());
-        }catch (ArithmeticException e){
-            System.out.println(e.getMessage());
-        }
-        System.out.println("Enter withdraw amount");
-        try {
-            transaction.withdrawAmount(sc.nextDouble());
-        }catch (ArithmeticException e){
-            System.out.println(e.getMessage());
-        }
+
         transaction.display();
     }
 }
