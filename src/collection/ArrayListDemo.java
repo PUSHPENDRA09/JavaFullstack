@@ -20,6 +20,7 @@ public class ArrayListDemo {
 
         }
         System.out.println(list.get(2));
+        System.out.println(list.get(2));
         System.out.println(list.contains("Madras1"));
         System.out.println(list.indexOf("Bangalore"));
         //list.containsAll()
