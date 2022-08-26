@@ -35,6 +35,7 @@ public class LinkedListDemo {
         System.out.println(fruits.peek());
         System.out.println(fruits.peekFirst());
         System.out.println(fruits.peekLast());
+        System.out.println(fruits.poll());
     }
 }
 

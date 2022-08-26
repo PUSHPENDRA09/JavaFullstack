@@ -11,10 +11,11 @@ public class StackDemo {
         stack.push(30);
         stack.push(40);
         stack.push(50);
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
+//        System.out.println(stack.pop());
+//        System.out.println(stack.pop());
+//        System.out.println(stack.pop());
+//        System.out.println(stack.pop());
+
         System.out.println(stack);
         stack.peek();
         System.out.println(stack.search(10));
